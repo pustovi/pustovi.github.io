@@ -1,0 +1,154 @@
+.first{
+    background-image: url(logo-big.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.second{
+    background-color: rgb(0, 0, 0);
+}
+.text-second{
+    color: white;
+}
+h2{
+    /* font-family: 'Signika Negative', sans-serif; */
+    /* font-family: 'Signika Negative', sans-serif; */
+font-family: 'Suez One', serif;
+}
+.third{
+    background-image: url(CPbgr.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
+    color: rgb(207, 207, 207);
+    padding: 15rem 0;
+   
+}
+.third p{
+     font-size: 2rem;
+     /* width: 50%; */
+}
+.btn-grey{
+    margin-left: 20px;
+    width: 200px;
+    height: 70px;
+    /* padding: 20px; */
+    background-color:rgba(172, 172, 172);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn-grey>p{
+ font-size: 1.1rem;
+}
+.btn-grey:hover{
+    color: white;
+}
+.btn-grey-link{
+    font-weight: 900 !important;
+    text-decoration: none;
+}
+.forth{
+    margin: 3rem;
+    padding: 15.5rem 2rem;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url(s1-wz-full-experience-desktop\ \(1\).jpg);
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.fifth{
+    color: white;
+}
+.swiss-k31{
+    background-image: url(zeus-s3-weapons-swiss-k-31.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.first .col{
+    margin-top: 35rem;
+    margin-bottom: 10rem;
+}
+
+.brown-btn, .white-btn{
+    width: 350px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 25px;
+}
+.brown-btn{
+    background-color: rgb(180, 134, 6);
+    box-shadow: 0 0 10px yellow inset;
+    border: 0px;
+}
+.white-btn{
+    background-color: rgb(207, 207, 207);
+}
+.nice-h{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    /* font-weight: 700; */
+    font-size: 4rem;
+}
+.nice-p{
+    color: gray;
+    font-size: 2rem;
+    margin: 0 200px;
+    text-align: center;
+}
+/* звузити відступи для мобільних тел */
+
+
+
+.slider {
+    /* border: 3px solid grey; */
+    max-width: 650px;
+ }
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .slider-wrap {
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+
+
+ }
+.slider-item{
+    margin-left: 20px;
+}
+ .slider-line {
+    display: flex;
+    transition: all ease 2s;
+ }
+
+ .button {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    font-size: 25px;
+ }
+
+ .slider-next,
+ .slider-prev {
+    border: 0;
+    background-color: rgba(172, 172, 172, 0.637);
+    padding: 10px;
+ }
+
+ .slider-prev {
+    left: 5px;
+ }
+
+ .slider-next {
+    right: 5px;
+ }
